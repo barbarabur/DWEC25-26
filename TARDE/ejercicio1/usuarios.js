@@ -16,3 +16,15 @@ async function procesarUsuario(userId) {
 // Uso:
 const usuario = await procesarUsuario(1);
 console.log(usuario);
+
+
+async function procesarUsuarios(userIds) {
+    let infoUsuarios = [];
+
+    for (const id of userIds) {
+        let datos= await procesarUsuario(id);
+        infoUsuarios.push(datos);
+
+    }
+    return infoUsuarios;
+}
