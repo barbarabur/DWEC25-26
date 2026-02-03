@@ -1,0 +1,60 @@
+:root {
+ font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+ font-weight: 400;
+}
+body {
+ margin: 0;
+}
+button {
+ border-radius: 8px;
+ border: 1px solid transparent;
+ padding: 0.6em 1.2em;
+ font-size: 1em;
+ font-weight: 500;
+ background-color: #c2c2c2;
+ cursor: pointer;
+}
+button:hover {
+ background-color: rgb(54, 63, 71);
+ color: white;
+}
+app {
+ width: 100vw;
+ height: 100vh;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: flex-start;
+ padding-top: 30px
+}
+frm {
+ display: flex;
+ gap: 10px;
+ margin-bottom: 20px;
+ justify-content: center;
+}
+form label {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+}
+filas {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+fila {
+ display: flex;
+ margin-bottom: 5px;
+}
+.cuadro {
+cursor: pointer;
+}
+.frm {
+ display: flex;
+ gap: 15px;
+ align-items: flex-end; /* Esto alinea el botón con los sliders */
+ justify-content: center;
+ margin-bottom: 20px;
+ flex-wrap: nowrap; /* Fuerza a que todo se mantenga en una sola línea 📏 */
+}
