@@ -160,3 +160,9 @@ promise.then(console.log); // "¡Listo!" después de 1 segundo
 * **Any**: "Busco al primer ganador".
 * **Race**: "Cronómetro puro: el primero que llegue gana, aunque se caiga".
 
+
+### Para el flujo:
+* **Paralelo**: Usas map o Array.from para crear un array de promesas y luego Promise.all.
+
+* **Secuencial**: Usarías un bucle for...of con un await dentro (esto sería mucho más lento).
+
