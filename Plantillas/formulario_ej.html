@@ -123,6 +123,15 @@
       <label for="mensaje">Mensaje:</label>
       <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje"></textarea>
 
+      <!-- Slider -->
+       <input 
+          type="range" 
+          value={columnas}
+          min="3"
+          max="8"
+          onChange={(e) => setColumnas(Number(e.target.value))} // Permite el movimiento
+      />
+
       <!-- Botón de envío -->
       <button type="submit">Enviar</button>
     </form>
