@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
-import ListaNumeros from './ListaNumeros'
+import MiComponente from './MiComponente';
+
 
 function App() {
 
@@ -10,7 +11,7 @@ function App() {
   return (
   <div className="App">
       <h1>Ejercicio Redux</h1>
-      <ListaNumeros />
+      <MiComponente />
     </div>
   );
 }
