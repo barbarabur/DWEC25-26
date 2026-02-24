@@ -8,3 +8,5 @@ export const store = configureStore({
     datos: entidadReducer, 
   }
 });
+
+export default store; // <--- Asegúrate de tener esta línea
